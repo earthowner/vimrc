@@ -74,13 +74,12 @@ map <C-l> <C-W>l
 autocmd FileType c,cpp map <buffer> <leader><space> :w<cr>:make<cr>
 
 "**********************************************插件安装***************************************************
-"git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle插件管理安装
+"git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 set nocompatible              " be iMproved, required
 filetype off                  " required
 
-set rtp+=~/.vim/bundle/vundle
+set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
-Plugin 'gmarik/vundle'
 "*****vim scriptes repo*****
 Plugin 'The-NERD-tree'
 "Plugin 'c.vim'
