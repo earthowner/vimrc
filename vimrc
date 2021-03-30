@@ -45,7 +45,7 @@ endif
 
 
 
-colorscheme SolarizedDark
+colorscheme mycolor
 
 "**********************************************
 map  <C-A> ggVGY
